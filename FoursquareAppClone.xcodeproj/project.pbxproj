@@ -13,6 +13,7 @@
 		0F73D16F2BAA0621007C3331 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0F73D16E2BAA0621007C3331 /* Base */; };
 		0F73D1712BAA0623007C3331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F73D1702BAA0623007C3331 /* Assets.xcassets */; };
 		0F73D1742BAA0623007C3331 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0F73D1732BAA0623007C3331 /* Base */; };
+		0F8B40362BAADA83008EA18B /* ParseUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0F8B40352BAADA83008EA18B /* ParseUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F8B40362BAADA83008EA18B /* ParseUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +44,7 @@
 			children = (
 				0F73D1662BAA0621007C3331 /* FoursquareAppClone */,
 				0F73D1652BAA0621007C3331 /* Products */,
+				0F8B40322BAADA7B008EA18B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +70,13 @@
 			path = FoursquareAppClone;
 			sourceTree = "<group>";
 		};
+		0F8B40322BAADA7B008EA18B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +93,9 @@
 			dependencies = (
 			);
 			name = FoursquareAppClone;
+			packageProductDependencies = (
+				0F8B40352BAADA83008EA18B /* ParseUI */,
+			);
 			productName = FoursquareAppClone;
 			productReference = 0F73D1642BAA0621007C3331 /* FoursquareAppClone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +124,9 @@
 				Base,
 			);
 			mainGroup = 0F73D15B2BAA0621007C3331;
+			packageReferences = (
+				0F73D17B2BAA0816007C3331 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */,
+			);
 			productRefGroup = 0F73D1652BAA0621007C3331 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -300,6 +316,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +345,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +381,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0F73D17B2BAA0816007C3331 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-SDK-iOS-OSX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0F8B40352BAADA83008EA18B /* ParseUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0F73D17B2BAA0816007C3331 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */;
+			productName = ParseUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0F73D15C2BAA0621007C3331 /* Project object */;
 }
