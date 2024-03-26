@@ -39,6 +39,8 @@ class SignUpVC: UIViewController {
             }
         } */
         
+        //viewcontrolleri direkt light a çeviren kü.ük kodd
+        overrideUserInterfaceStyle = .light
       
         
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))

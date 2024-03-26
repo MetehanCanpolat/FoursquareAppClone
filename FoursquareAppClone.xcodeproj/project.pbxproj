@@ -7,24 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5CFC882BAC305300830D75 /* ParseUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0F5CFC872BAC305300830D75 /* ParseUI */; };
+		0F5CFC8A2BAC41C100830D75 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5CFC892BAC41C100830D75 /* PlacesVC.swift */; };
 		0F73D1682BAA0621007C3331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73D1672BAA0621007C3331 /* AppDelegate.swift */; };
 		0F73D16A2BAA0621007C3331 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73D1692BAA0621007C3331 /* SceneDelegate.swift */; };
-		0F73D16C2BAA0621007C3331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73D16B2BAA0621007C3331 /* ViewController.swift */; };
+		0F73D16C2BAA0621007C3331 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F73D16B2BAA0621007C3331 /* SignUpVC.swift */; };
 		0F73D16F2BAA0621007C3331 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0F73D16E2BAA0621007C3331 /* Base */; };
 		0F73D1712BAA0623007C3331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F73D1702BAA0623007C3331 /* Assets.xcassets */; };
 		0F73D1742BAA0623007C3331 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0F73D1732BAA0623007C3331 /* Base */; };
-		0F8B40362BAADA83008EA18B /* ParseUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0F8B40352BAADA83008EA18B /* ParseUI */; };
+		0FEC87BA2BADED8500AAAEDC /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC87B92BADED8500AAAEDC /* AddPlaceVC.swift */; };
+		0FEC87BC2BAEC31000AAAEDC /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC87BB2BAEC31000AAAEDC /* MapVC.swift */; };
+		0FEC87BE2BAECCB500AAAEDC /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC87BD2BAECCB500AAAEDC /* DetailVC.swift */; };
+		0FEC87C02BAEDD2000AAAEDC /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC87BF2BAEDD2000AAAEDC /* PlaceModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F5CFC892BAC41C100830D75 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
 		0F73D1642BAA0621007C3331 /* FoursquareAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoursquareAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F73D1672BAA0621007C3331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F73D1692BAA0621007C3331 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0F73D16B2BAA0621007C3331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F73D16B2BAA0621007C3331 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		0F73D16E2BAA0621007C3331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F73D1702BAA0623007C3331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F73D1732BAA0623007C3331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F73D1752BAA0623007C3331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FEC87B92BADED8500AAAEDC /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		0FEC87BB2BAEC31000AAAEDC /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		0FEC87BD2BAECCB500AAAEDC /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		0FEC87BF2BAEDD2000AAAEDC /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8B40362BAADA83008EA18B /* ParseUI in Frameworks */,
+				0F5CFC882BAC305300830D75 /* ParseUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +71,12 @@
 			children = (
 				0F73D1672BAA0621007C3331 /* AppDelegate.swift */,
 				0F73D1692BAA0621007C3331 /* SceneDelegate.swift */,
-				0F73D16B2BAA0621007C3331 /* ViewController.swift */,
+				0F73D16B2BAA0621007C3331 /* SignUpVC.swift */,
+				0F5CFC892BAC41C100830D75 /* PlacesVC.swift */,
+				0FEC87B92BADED8500AAAEDC /* AddPlaceVC.swift */,
+				0FEC87BD2BAECCB500AAAEDC /* DetailVC.swift */,
+				0FEC87BB2BAEC31000AAAEDC /* MapVC.swift */,
+				0FEC87BF2BAEDD2000AAAEDC /* PlaceModel.swift */,
 				0F73D16D2BAA0621007C3331 /* Main.storyboard */,
 				0F73D1702BAA0623007C3331 /* Assets.xcassets */,
 				0F73D1722BAA0623007C3331 /* LaunchScreen.storyboard */,
@@ -94,7 +109,7 @@
 			);
 			name = FoursquareAppClone;
 			packageProductDependencies = (
-				0F8B40352BAADA83008EA18B /* ParseUI */,
+				0F5CFC872BAC305300830D75 /* ParseUI */,
 			);
 			productName = FoursquareAppClone;
 			productReference = 0F73D1642BAA0621007C3331 /* FoursquareAppClone.app */;
@@ -125,7 +140,7 @@
 			);
 			mainGroup = 0F73D15B2BAA0621007C3331;
 			packageReferences = (
-				0F73D17B2BAA0816007C3331 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */,
+				0F5CFC862BAC304500830D75 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */,
 			);
 			productRefGroup = 0F73D1652BAA0621007C3331 /* Products */;
 			projectDirPath = "";
@@ -154,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F73D16C2BAA0621007C3331 /* ViewController.swift in Sources */,
+				0F73D16C2BAA0621007C3331 /* SignUpVC.swift in Sources */,
+				0FEC87C02BAEDD2000AAAEDC /* PlaceModel.swift in Sources */,
+				0FEC87BC2BAEC31000AAAEDC /* MapVC.swift in Sources */,
 				0F73D1682BAA0621007C3331 /* AppDelegate.swift in Sources */,
+				0F5CFC8A2BAC41C100830D75 /* PlacesVC.swift in Sources */,
+				0FEC87BA2BADED8500AAAEDC /* AddPlaceVC.swift in Sources */,
 				0F73D16A2BAA0621007C3331 /* SceneDelegate.swift in Sources */,
+				0FEC87BE2BAECCB500AAAEDC /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +403,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		0F73D17B2BAA0816007C3331 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */ = {
+		0F5CFC862BAC304500830D75 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/parse-community/Parse-SDK-iOS-OSX";
 			requirement = {
@@ -394,9 +414,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		0F8B40352BAADA83008EA18B /* ParseUI */ = {
+		0F5CFC872BAC305300830D75 /* ParseUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 0F73D17B2BAA0816007C3331 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */;
+			package = 0F5CFC862BAC304500830D75 /* XCRemoteSwiftPackageReference "Parse-SDK-iOS-OSX" */;
 			productName = ParseUI;
 		};
 /* End XCSwiftPackageProductDependency section */
